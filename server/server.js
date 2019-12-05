@@ -5,7 +5,7 @@ const app = express();
 const authRoutes = require('./routes/auth');
 
 // middleware
-app.use('/api',authRoutes);
+app.use('/api', authRoutes);
 
 const port = process.env.port || 8000;
 
